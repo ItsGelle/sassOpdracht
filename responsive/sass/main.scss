@@ -1,0 +1,26 @@
+// importeer variable
+@import "vars";
+
+//MIXIN
+@import "mixIns";
+
+// RESET STIJLEN
+@import "reset";
+
+//NAVIGATIE
+@import "navigatie";
+
+
+
+body {
+  font-family: sans-serif;
+}
+
+
+aside {
+  background-color: $lichter;
+}
+
+footer {
+  background-color: $hoofdkleur;
+}
